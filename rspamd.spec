@@ -1,5 +1,5 @@
 Name:             rspamd
-Version:          2.5
+Version:          2.6
 Release:          1%{?dist}
 Summary:          Rapid spam filtering system
 License:          ASL 2.0 and LGPLv3 and BSD and MIT and CC0 and zlib
@@ -97,7 +97,7 @@ Provides: bundled(uthash) = 1.9.8
 # xxhash: BSD
 Provides: bundled(xxhash)
 # zstd: BSD
-Provides: bundled(zstd) = 1.3.1
+Provides: bundled(zstd) = 1.4.5
 
 %description
 Rspamd is a rapid, modular and lightweight spam filter. It is designed to work
